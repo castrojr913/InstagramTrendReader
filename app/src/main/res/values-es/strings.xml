@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">KoggieTest</string>
+
+    <!-- General -->
+    <string name="error_connectivity">
+        <![CDATA[Hubo un error de conexión con la red:\n
+        1. Verifique los puertos Wifi / Datos. Prueba apagándolos y activándolos nuevamente.\n
+        2. Puede ser un problema con el Proveedor de Servicio de Internet o Administador de Red.]]>
+    </string>
+    <string name="error_timeout">Al parecer el servidor se demora en dar respuesta a su petición, intente nuevamente más tarde.</string>
+    <string name="error_webservice">Hubo un problema con el servidor. Intente nuevamente más tarde y, si todavía persiste el error, contacte al equipo de soporte.</string>
+    <string name="button_ok">Entendido</string>
+    <string name="toolbar_share_title">Comparte en</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title"> Mi App Galería</string>
+    <string name="gallery_grid_no_photos">No hay fotos para mostrar</string>
+
+    <!-- Gallery Detail -->
+    <string name="gallery_detail_pager_published_date">Fecha publicación:</string>
+    <string name="gallery_detail_pager_author">Autor:</string>
+    <string name="gallery_detail_pager_tag">Etiqueta:</string>
+    <string name="gallery_detail_toolbar_share_subject">Imagen del Día</string>
+    <string name="gallery_detail_toolbar_share_description">Mira esta imagen que encontré:</string>
+    <string name="gallery_detail_profile_toolbar_share_subject">Perfil del Día</string>
+
+</resources>

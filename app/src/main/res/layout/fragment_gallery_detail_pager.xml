@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.Gallery.Detail.Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".controllers.gallery.detail.pager.GalleryDetailPagerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_published_date"
+            style="@style/AppTheme.Gallery.Detail.FormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery_detail_pager_published_date" />
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_published_date_value"
+            style="@style/AppTheme.Gallery.Detail.FormText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_author"
+            style="@style/AppTheme.Gallery.Detail.FormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery_detail_pager_author" />
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_author_value"
+            style="@style/AppTheme.Gallery.Detail.FormText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_tag"
+            style="@style/AppTheme.Gallery.Detail.FormTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery_detail_pager_tag" />
+
+        <TextView
+            android:id="@+id/fragment_gallery_detail_pager_textview_tag_value"
+            style="@style/AppTheme.Gallery.Detail.FormText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fragment_gallery_detail_pager_imageview"
+        style="@style/AppTheme.Gallery.Detail.Image"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

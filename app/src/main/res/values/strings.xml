@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">KoggieTest</string>
+
+    <!-- General -->
+    <string name="error_connectivity">
+        <![CDATA[There was an error in regard to network status:\n
+        1. Check Wifi / Data ports. Try turning them off and turning them on again.\n
+        2. It may be a trouble with the Service Provider or Network Manager.]]>
+    </string>
+    <string name="error_timeout">The server doesn\'t answer straight away so far, please try later again.</string>
+    <string name="error_webservice">There was an issue with the server. Please, try later again and if the error still persists, inform the trouble to the support team.</string>
+    <string name="button_ok">@android:string/ok</string>
+    <string name="toolbar_share_title">Share</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title"> My Gallery App</string>
+    <string name="gallery_grid_no_photos">There are no photos to show</string>
+
+    <!-- Gallery Detail -->
+    <string name="gallery_detail_pager_published_date">Published Date:</string>
+    <string name="gallery_detail_pager_author">Author:</string>
+    <string name="gallery_detail_pager_tag">Tag:</string>
+    <string name="gallery_detail_toolbar_share_subject">Image of the Day</string>
+    <string name="gallery_detail_toolbar_share_description">Look at this image that I came it across!</string>
+    <string name="gallery_detail_profile_toolbar_share_subject">Profile of the Day</string>
+
+</resources>

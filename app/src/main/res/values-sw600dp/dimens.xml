@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gallery -->
+    <dimen name="app_gallery_grid_photo_size">170dp</dimen>
+    <dimen name="app_gallery_grid_photo_border">8dp</dimen>
+    <dimen name="app_gallery_pager_image_size">270dp</dimen>
+
+    <!-- Gallery Detail -->
+    <dimen name="app_gallery_detail_image_size">500dp</dimen>
+
+</resources>

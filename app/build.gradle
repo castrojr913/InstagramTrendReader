@@ -1,0 +1,54 @@
+// We pick out Annotations approach in order to reduce boilerplate and cut down on code in the project
+// http://androidannotations.org/
+
+repositories {
+    // Required for ViewPagerIndicator Lib
+    maven { url "https://jitpack.io" }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt' // Compile annotations with Android Studio, https://bitbucket.org/hvisser/android-apt
+
+// -- Required for APT plugin --
+apt {
+    arguments {
+        resourcePackageName "org.jacr.instragramreader"
+        androidManifestFile variant.outputs[0]?.processResources?.manifestFile
+    }
+}
+//--
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "org.jacr.instragramreader"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    apt "org.androidannotations:androidannotations:3.3.2"
+    compile 'org.androidannotations:androidannotations-api:3.3.2'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup:otto:1.3.8'
+    compile 'com.jakewharton.timber:timber:2.5.0'
+    compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+}

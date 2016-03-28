@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controllers.gallery.GalleryActivity">
+
+    <!-- Workaround which catches click event on Toolbar\'s home button for pre-Lollipop versions-->
+    <item
+        android:id="@+id/menu_gallery_update"
+        android:title=""
+        android:icon="@drawable/ic_toolbar_update"
+        app:showAsAction="always" />
+
+</menu>

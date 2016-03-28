@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <org.jacr.instragramreader.controllers.gallery.grid.GalleryGridImage
+        android:id="@+id/adapter_gallery_grid_image"
+        style="@style/AppTheme.Gallery.GridThumbnail" />
+
+    <TextView
+        android:id="@+id/adapter_gallery_grid_title"
+        style="@style/AppTheme.Gallery.GridThumbnailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

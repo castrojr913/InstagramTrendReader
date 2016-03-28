@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme -->
+    <color name="app_theme_primary">#97D1EE</color>
+    <color name="app_theme_primary_dark">#303F9F</color>
+    <color name="app_theme_accent">#FF4081</color>
+
+    <!-- General Widgets and Components -->
+    <color name="app_toolbar_title_color">#C6576E</color>
+    <color name="app_progressbar_background">@color/app_theme_primary</color>
+    <color name="app_refresh_i">@color/app_theme_primary</color>
+    <color name="app_refresh_ii">@color/app_theme_primary_dark</color>
+    <color name="app_drawable_primary_background">#ffffff</color>
+    <color name="app_drawable_primary_border">@color/app_theme_primary</color>
+
+    <!-- ViewPagerIndicator Lib -->
+    <color name="default_circle_indicator_page_color">@color/app_gallery_grid_photo_title</color>
+    <color name="default_circle_indicator_fill_color">@color/app_theme_primary</color>
+    <color name="default_circle_indicator_stroke_color">#FFFFFF</color>
+
+    <!-- Gallery -->
+    <color name="app_gallery_grid_photo_title">#0000FF</color>
+    <color name="app_gallery_grid_photo_border">@color/app_theme_primary</color>
+    <color name="app_gallery_grid_background">#EAEAEA</color>
+
+    <!-- Gallery Detail -->
+    <color name="app_gallery_detail_pager_title">#FF0000</color>
+    <color name="app_gallery_detail_pager_text">#000000</color>
+    <color name="app_gallery_detail_pager_background">@color/app_gallery_grid_background</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.Gallery.PreviewBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".controllers.gallery.pager.GalleryPagerFragment">
+
+    <ImageView
+        android:id="@+id/fragment_gallery_pager_imageview"
+        style="@style/AppTheme.Gallery.PreviewImage" />
+
+</LinearLayout>
+

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Gallery -->
+    <dimen name="app_gallery_grid_photo_size">240dp</dimen>
+    <dimen name="app_gallery_grid_photo_border">12dp</dimen>
+    <dimen name="app_gallery_pager_image_size">340dp</dimen>
+
+    <!-- Gallery Detail -->
+    <dimen name="app_gallery_detail_image_size">700dp</dimen>
+
+</resources>

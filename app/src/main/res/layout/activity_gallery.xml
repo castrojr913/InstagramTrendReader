@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.jacr.instragramreader.utilities.views.ScrollableSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gallery_layout_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.gallery.GalleryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/activity_gallery_toolbar"
+            style="@style/AppTheme.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_gallery_pager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_gallery_pager_image_size"
+            android:layout_below="@+id/activity_gallery_toolbar"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activity_gallery_grid"
+            style="@style/AppTheme.Gallery.GridBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_gallery_pager"
+            android:visibility="gone" />
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+            android:id="@+id/activity_gallery_progressbar_circular"
+            style="@style/AppTheme.CircularProgressBar"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/activity_gallery_textview_no_items"
+            style="@style/AppTheme.Gallery.GridNoItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/gallery_grid_no_photos"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</org.jacr.instragramreader.utilities.views.ScrollableSwipeRefreshLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="-5px"
+        android:right="-5px"
+        android:top="-5px">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_drawable_primary_background"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/app_drawable_primary_border" />
+        </shape>
+    </item>
+</layer-list>
